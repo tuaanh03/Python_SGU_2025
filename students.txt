@@ -1,0 +1,3 @@
+SV001|Nguyen Van A|2000|HCM|nam|Student|
+SV002|Tran Thi B|2001|Ha Noi|nu|ScholarshipStudent|2.5
+3122411007|Ngo Tuan Anh|2004|HCM|nam|ScholarshipStudent|13.5

@@ -1,0 +1,5 @@
+SV01|Nguyen Van An|2000|HCM|nam|Student|
+SV02|Le Thi Bich|2001|Danang|nu|ScholarshipStudent|3.5
+SV03|Tran Thi Thao|2002|Hanoi|nu|Student|
+SV04|Pham Hoang Long|2000|HCM|nam|ScholarshipStudent|2.0
+SV05|Nguyen Minh Tri|1999|HCM|nam|Student|

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/OOP/__init__.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/OOP/__init__.py" />
+              <option name="originalContent" value="# Make OOP a package&#10;" />
+              <option name="updatedContent" value="# Make OOP a package&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OOP/repositories/student_respositories.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/OOP/repositories/student_respositories.py" />
+              <option name="originalContent" value="import os&#10;from typing import List&#10;from OOP.models.student import Student&#10;from OOP.models.ScholarshipStudent import ScholarshipStudent" />
+              <option name="updatedContent" value="import os&#10;from typing import List&#10;from OOP.models.student import Student&#10;from OOP.models.ScholarshipStudent import ScholarshipStudent" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
