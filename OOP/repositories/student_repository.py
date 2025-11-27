@@ -46,10 +46,10 @@ class StudentRepository:
             for st in students:
                 if isinstance(st, ScholarshipStudent):
                 # //kiểm tra xem st ( đối tượng) có phải là một thể hiện của lớp ScholarshipStudent không
-                    role = "ScholarshipStudent"
+                    role = st.get_role()  # sẽ trả về "ScholarshipStudent"
                     scholarship = st.scholarship_level
                 else:
-                    role = "Student"
+                    role = st.get_role() # sẽ trả về "Student"  # phần này cũng được gọi là tính đóng gói, không cho phép đổi dữ liệu trực tiếp
                     scholarship = ""
                 line = "|".join([
                     st.student_id,

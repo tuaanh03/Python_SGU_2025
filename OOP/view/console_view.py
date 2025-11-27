@@ -39,9 +39,6 @@ def show_stats(service: StudentController):
 
 
 def run_app():
-    # Use the students file in the project root. Using "../students.txt" points outside the project
-    # when running from project root; use the default filename in the repository or an explicit
-    # "students.txt" here so the app can read/write data correctly.
     repo = StudentRepository("students.txt")
     service = StudentController(repo)
 

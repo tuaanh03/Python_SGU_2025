@@ -43,4 +43,4 @@ class Student(Person):
 
     def describe(self) -> str:
         return (f"[{self.student_id}] {self.name} - {self.age} tuổi - "
-                f"{self.gender} - Nơi sinh: {self.birth_place}")
+                f"{self.gender} - Nơi sinh: {self.birth_place} - Loại: {self.get_role()}")
